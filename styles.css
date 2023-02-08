@@ -1,0 +1,24 @@
+body {
+    margin: 3%;
+    font-family: helvetica neue;
+}
+
+h1 {
+    color: #ffffff;
+    background-color: #FFB100;
+    font-weight: bold;
+}
+
+h2 {
+    color: #072F5F;
+}
+
+p {
+    color: #072F5F;
+}
+
+nav {
+    color: #ffffff;
+    background-color: #1261A0;
+    font-weight: bold;
+}
