@@ -1,24 +1,145 @@
+:root {
+    --darkest-blue:  #072F5F;
+    --dark-blue: #1261A0;
+    --medium-blue: #3895D3;
+    --light-blue:  #D1EBFF;
+    --light-orange: #FFB100;
+    --dark-orange: #FF7F00; 
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
 body {
-    margin: 3%;
-    font-family: helvetica neue;
+    display: flex;
+    background-color: var(--light-blue);
+    font-family: Helvetica, sans-serif;
+    color: var(--darkest-blue); 
+    flex-direction: column;
+    margin: 0;
+    padding: 0px;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    background-color: var(--dark-blue);
+    color: white;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+}
+
+a:hover {
+    color: var(--light-orange)
+}
+
+a:active {
+    color: var(--dark-orange)
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: var(--dark-blue);
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.dark-blue {
+    background-color:var(--dark-blue);
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+.medium-blue {
+    background-color:var(--medium-blue);
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+.dark-orange {
+    background-color:var(--dark-orange);
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+.light-orange {
+    background-color:var(--light-orange);
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+.white {
+    background-color:white;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+.color-box {
+    display: flex;
+}
+
+.apply-button {
+    background-color: var(--light-orange);
+    border-color: var(--dark-orange);
+    border-width: 5px;
+    color: white; 
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-style: solid;
+}
+
+.login {
+    font-size: 16px;
+    background: none;
+    border: none; 
+    color: var(--light-orange); 
+    font-weight: bold;
 }
 
 h1 {
-    color: #ffffff;
-    background-color: #FFB100;
     font-weight: bold;
 }
 
 h2 {
-    color: #072F5F;
+    font-weight: bold;
+    padding-left: 20px;
 }
 
 p {
-    color: #072F5F;
-}
-
-nav {
-    color: #ffffff;
-    background-color: #1261A0;
-    font-weight: bold;
+    padding-left: 20px;
 }
