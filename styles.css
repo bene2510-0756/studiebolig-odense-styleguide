@@ -36,29 +36,6 @@ nav {
     padding:0 20px;
 }
 
-a:hover {
-    color: var(--light-orange)
-}
-
-a:active {
-    color: var(--dark-orange)
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    padding: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
 footer {
     background-color: var(--dark-blue);
     color: white;
@@ -159,4 +136,17 @@ main {
 .text-box {
     display: flex;
     align-items: baseline;
+}
+
+.login-submit {
+    padding: 10px;
+    background-color: var(--light-orange);
+    border-color: var(--dark-orange);
+    border-radius: 20px;
+    width: 75px;
+    border-style: solid;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
 }
